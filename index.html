@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fahima Haque Nupur - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/linkedinpro.jpg">
 </head>
 
 
@@ -303,135 +304,86 @@
         </div>
     </section>
 
-    <section id="testimonials">
-        <div class="testimonials-container">
-            <h2 class="about-heading">Client <span>Testimonials</span></h2>
-            <p class="testimonials-intro">
-                See what people are saying about my work and collaboration experience.
-            </p>
+    <section id="testimonials" class="testimonials-container">
+        <h2 class="section-title">Testimonials</h2>
+        <p class="section-subtitle">Subscribe Easy Tutorials YouTube channel to watch more videos</p>
 
-            <div class="testimonials-grid" id="testimonials-grid">
-                <!-- Testimonials will be loaded here -->
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+                    alt="Avinash Kr" class="profile-image">
+                <div class="card-content">
+                    <span class="quote-icon">💬</span>
+                    <p class="testimonial-text">
+                        Like this vide and ask your questions in comment section, don't forget to Subscribe Easy
+                        Tutorials YouTube channel to watch more videos of website designing, digital marketing and
+                        photoshop.
+                    </p>
+                    <div class="author-info">
+                        <div class="author-name">Avinash Kr</div>
+                        <div class="author-role">Co-founder at xyz</div>
+                    </div>
+                </div>
             </div>
 
-            <button class="add-testimonial-btn" onclick="toggleTestimonialForm()">
-                ✍️ Share Your Feedback
-            </button>
-
-            <div class="testimonial-form-container" id="testimonial-form-container">
-                <h3 style="text-align: center; margin-bottom: 20px;">Share Your Experience</h3>
-                <div id="testimonial-message" class="form-message"></div>
-                <form class="testimonial-form" id="testimonial-form">
-                    <div class="form-group">
-                        <input type="text" id="testimonial-name" placeholder="Your Name *" required>
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop"
+                    alt="Bharat Kumar" class="profile-image">
+                <div class="card-content">
+                    <span class="quote-icon">💬</span>
+                    <p class="testimonial-text">
+                        Like this vide and ask your questions in comment section, don't forget to Subscribe Easy
+                        Tutorials YouTube channel to watch more videos of website designing, digital marketing and
+                        photoshop.
+                    </p>
+                    <div class="author-info">
+                        <div class="author-name">Bharat Kumar</div>
+                        <div class="author-role">Manager at xyz</div>
                     </div>
+                </div>
+            </div>
 
-                    <div class="form-group">
-                        <input type="text" id="testimonial-position" placeholder="Your Position/Company (Optional)">
+            <div class="testimonial-card">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop"
+                    alt="Prabhakar D" class="profile-image">
+                <div class="card-content">
+                    <span class="quote-icon">💬</span>
+                    <p class="testimonial-text">
+                        Like this vide and ask your questions in comment section, don't forget to Subscribe Easy
+                        Tutorials YouTube channel to watch more videos of website designing, digital marketing and
+                        photoshop.
+                    </p>
+                    <div class="author-info">
+                        <div class="author-name">Prabhakar D</div>
+                        <div class="author-role">Founder / CEO at xyz</div>
                     </div>
-
-                    <div class="form-group">
-                        <select id="testimonial-rating"
-                            style="width: 100%; padding: 15px; border: none; border-radius: 10px; background: rgba(255, 255, 255, 0.1); color: #fff; font-size: 14px;"
-                            required>
-                            <option value="">Select Rating *</option>
-                            <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
-                            <option value="4">⭐⭐⭐⭐ Very Good</option>
-                            <option value="3">⭐⭐⭐ Good</option>
-                            <option value="2">⭐⭐ Fair</option>
-                            <option value="1">⭐ Poor</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <textarea id="testimonial-feedback" placeholder="Your Feedback *" required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">Submit Testimonial</button>
-                </form>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="contact-container">
-            <h2 class="contact-heading">Get In <span>Touch</span></h2>
-            <p class="contact-intro">
-                I'd love to connect! Whether you want to collaborate, discuss a project idea, or
-                just say hi — feel free to reach out through the form below.
-            </p>
+    <section class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's discuss your next project</p>
 
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                                </path>
-                            </svg>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Phone</h4>
-                            <p><a href="tel:+8801647645597">+880 1647645597</a></p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
-                            </svg>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Location</h4>
-                            <p>Dhaka, Bangladesh</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon">
-                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
-                                </path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg>
-                        </div>
-                        <div class="contact-details">
-                            <h4>Email</h4>
-                            <p><a href="mailto:fahimahaquenupurr@gmail.com">fahimahaquenupurr@gmail.com</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <form class="contact-form" id="contact-form">
-                    <div id="contact-message" class="form-message"></div>
-                    <div class="form-group">
-                        <input type="text" id="contact-name" placeholder="Your Name *" required>
-                    </div>
-
-                    <div class="form-group">
-                        <input type="email" id="contact-email" placeholder="Your Email *" required>
-                    </div>
-
-                    <div class="form-group">
-                        <textarea id="contact-msg" placeholder="Your Message *" required></textarea>
-                    </div>
-
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" id="title" name="title" placeholder="Subject/Title" required>
             </div>
-        </div>
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <script>
-        // Google Sheets Web App URL - Replace with your own
-        const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbw2XUQ_-CV5Ryxm0ZvpHPvGwUOKEQOZ7oBPQ6bO-OM9bMw37cM6qoduRSOynhbBEOJR/exec';
-
         // Mobile menu toggle
         function toggleMenu() {
             const menu = document.getElementById('nav-menu');
@@ -460,100 +412,6 @@
                 menu.classList.contains('active')) {
                 closeMenu();
             }
-        });
-
-        // Toggle testimonial form
-        function toggleTestimonialForm() {
-            const formContainer = document.getElementById('testimonial-form-container');
-            formContainer.classList.toggle('active');
-            if (formContainer.classList.contains('active')) {
-                formContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }
-        }
-
-        // Load testimonials on page load
-        async function loadTestimonials() {
-            try {
-                const response = await fetch(GOOGLE_SHEETS_URL + '?action=getTestimonials');
-                const data = await response.json();
-
-                const grid = document.getElementById('testimonials-grid');
-                grid.innerHTML = '';
-
-                if (data.testimonials && data.testimonials.length > 0) {
-                    data.testimonials.forEach(testimonial => {
-                        const stars = '⭐'.repeat(testimonial.rating);
-                        const initial = testimonial.name.charAt(0).toUpperCase();
-
-                        const card = `
-                            <div class="testimonial-card">
-                                <div class="testimonial-header">
-                                    <div class="testimonial-avatar">${initial}</div>
-                                    <div class="testimonial-info">
-                                        <h4>${testimonial.name}</h4>
-                                        <p>${testimonial.position || 'Client'}</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-rating">${stars}</div>
-                                <p class="testimonial-text">"${testimonial.feedback}"</p>
-                            </div>
-                        `;
-                        grid.innerHTML += card;
-                    });
-                } else {
-                    grid.innerHTML = '<p style="text-align: center; opacity: 0.7;">No testimonials yet. Be the first to share your feedback!</p>';
-                }
-            } catch (error) {
-                console.error('Error loading testimonials:', error);
-            }
-        }
-
-        // Submit testimonial
-        document.getElementById('testimonial-form').addEventListener('submit', async function (e) {
-            e.preventDefault();
-
-            const messageDiv = document.getElementById('testimonial-message');
-            const submitBtn = this.querySelector('.submit-btn');
-
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Submitting...';
-
-            const formData = {
-                action: 'addTestimonial',
-                name: document.getElementById('testimonial-name').value,
-                position: document.getElementById('testimonial-position').value,
-                rating: document.getElementById('testimonial-rating').value,
-                feedback: document.getElementById('testimonial-feedback').value,
-                timestamp: new Date().toISOString()
-            };
-
-            try {
-                const response = await fetch(GOOGLE_SHEETS_URL, {
-                    method: 'POST',
-                    body: JSON.stringify(formData)
-                });
-
-                const result = await response.json();
-
-                if (result.success) {
-                    messageDiv.className = 'form-message success';
-                    messageDiv.textContent = '✓ Thank you for your feedback!';
-                    this.reset();
-                    loadTestimonials();
-                    setTimeout(() => {
-                        toggleTestimonialForm();
-                        messageDiv.className = 'form-message';
-                    }, 3000);
-                } else {
-                    throw new Error('Submission failed');
-                }
-            } catch (error) {
-                messageDiv.className = 'form-message error';
-                messageDiv.textContent = '✗ Failed to submit. Please try again.';
-            }
-
-            submitBtn.disabled = false;
-            submitBtn.textContent = 'Submit Testimonial';
         });
 
         // Submit contact message
@@ -618,6 +476,55 @@
         // Load testimonials on page load
         loadTestimonials();
     </script>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init({
+                publicKey: "AfNM2ZcDPWfjfh2l-",
+            });
+        })();
+    </script>
+    <script>
+        // Form submission handler with EmailJS
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const serviceID = "service_rmt4aar";
+            const templateID = "template_29fermr";
+
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+
+            emailjs.sendForm(serviceID, templateID, this)
+                .then(() => {
+                    alert("✅ Message sent successfully!");
+                    this.reset();
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                }, (err) => {
+                    alert("❌ Failed to send message. Error: " + JSON.stringify(err));
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                });
+        });
+
+        // Add focus animation to form inputs
+        const inputs = document.querySelectorAll('#contact-form input, #contact-form textarea');
+        inputs.forEach(input => {
+            input.addEventListener('focus', function () {
+                this.parentElement.style.transform = 'scale(1.02)';
+            });
+
+            input.addEventListener('blur', function () {
+                this.parentElement.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+
 </body>
 
 </html>
