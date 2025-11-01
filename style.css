@@ -669,6 +669,10 @@
     @media (max-width: 768px) {
         .menu-toggle {
             display: block;
+            position: fixed;  
+            top: 20px;        
+            right: 20px;      
+            z-index: 1001; 
         }
 
         nav ul {
