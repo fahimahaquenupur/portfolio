@@ -134,10 +134,15 @@
 
     .home-left h1 {
         font-size: 32px;
-        margin-bottom: 15px;
-        background: linear-gradient(to right, #fff, #f0e68c);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    background: linear-gradient(to right, #fff, #f0e68c);
+    
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     }
 
     .home-left h3 span {
